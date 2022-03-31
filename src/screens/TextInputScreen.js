@@ -13,7 +13,7 @@ const TextInputScreen = () => {
             <Text>My name is {name}</Text>
 
             <Text>Enter password:</Text>
-            <TextInput style={style.textInput} autoCapitalize="none" autoCorrect={false}
+            <TextInput secureTextEntry style={style.textInput} autoCapitalize="none" autoCorrect={false}
                 value={pswd} onChangeText={(newVal2) => setPswd(newVal2)} />
             {pswd.length < 5 
                 ? <Text  style={{color: 'red'}}>password must be 5 letters</Text>
