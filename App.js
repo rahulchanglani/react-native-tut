@@ -12,6 +12,8 @@ import SquareScreenWithReducer from "./src/screens/SquareScreenWithReducer";
 import TextInputScreen from "./src/screens/TextInputScreen";
 import BoxScreen from "./src/screens/BoxScreen";
 import BoxScreen2 from "./src/screens/BoxScreen2";
+import AnimateScreen from "./src/screens/AnimateScreen";
+import ComplexAnimateScreen from "./src/screens/ComplexAnimateScreen";
 
 const navigator = createStackNavigator(
   {
@@ -27,6 +29,8 @@ const navigator = createStackNavigator(
     TextBox: TextInputScreen,
     BoxObjectModel: BoxScreen,
     BoxObjectModel2: BoxScreen2,
+    Animater: AnimateScreen,
+    ComplexAnimater: ComplexAnimateScreen,
   },
   {
     initialRouteName: "Home",
