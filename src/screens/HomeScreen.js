@@ -37,6 +37,12 @@ const HomeScreen = (props) => {
       <Button 
         title="Go to Box Object Model 2 Screen"
         onPress={() => props.navigation.navigate('BoxObjectModel2')} />
+      <Button 
+        title="Go to Animate Screen"
+        onPress={() => props.navigation.navigate('Animater')} />
+      <Button 
+        title="Go to Complex Animate Screen"
+        onPress={() => props.navigation.navigate('ComplexAnimater')} />
       <TouchableOpacity onPress={() => props.navigation.navigate('List')} >
         <Text>Go to list demo</Text>
       </TouchableOpacity>
